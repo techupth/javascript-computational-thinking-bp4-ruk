@@ -82,3 +82,7 @@ let orders = [
 ];
 
 // Start coding here
+let cardType = "jcb"
+let totalCardType = orders.filter(orders => orders.creditCardType === cardType);
+
+console.log(totalCardType);
